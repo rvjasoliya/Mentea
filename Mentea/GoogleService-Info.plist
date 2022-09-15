@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1032778786907-45tdb55l8t4p35n38lriphcherd02e3s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032778786907-45tdb55l8t4p35n38lriphcherd02e3s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBX8akJIFMBSRFuEZd19Z63xwUQbvMyazE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032778786907</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cc.atpl.Mentea</string>
+	<key>PROJECT_ID</key>
+	<string>mentea-be344</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mentea-be344.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032778786907:ios:00644a786af745574f777e</string>
+	<key>DATABASE_URL</key>
+	<string>https://mentea-be344.firebaseio.com</string>
+</dict>
+</plist>

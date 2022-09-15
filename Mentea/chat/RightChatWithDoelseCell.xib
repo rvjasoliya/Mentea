@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+        <array key="poppins_semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RightChatWithDoelseCell" rowHeight="60" id="KGk-i7-Jjw" customClass="RightChatWithDoelseCell" customModule="Mentea" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRy-zV-o7w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vVt-Hq-4rh">
+                                <rect key="frame" x="231" y="8" width="81" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/22/2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2T-js-8iw">
+                                        <rect key="frame" x="8" y="32" width="65" height="10"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="8"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sA9-BX-IM0">
+                                        <rect key="frame" x="8" y="0.0" width="65" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="17"/>
+                                        <color key="textColor" red="0.043137254899999998" green="0.1529411765" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Message" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppE-e9-hzT">
+                                        <rect key="frame" x="8" y="4" width="65" height="20"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="22"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.027450980392156862" green="0.56862745098039214" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="sA9-BX-IM0" firstAttribute="leading" secondItem="vVt-Hq-4rh" secondAttribute="leading" constant="8" id="1ta-jt-Ebq"/>
+                                    <constraint firstItem="ppE-e9-hzT" firstAttribute="leading" secondItem="vVt-Hq-4rh" secondAttribute="leading" constant="8" id="80V-NS-3DB"/>
+                                    <constraint firstItem="ppE-e9-hzT" firstAttribute="top" secondItem="sA9-BX-IM0" secondAttribute="bottom" constant="4" id="8Id-iR-YFp"/>
+                                    <constraint firstAttribute="trailing" secondItem="k2T-js-8iw" secondAttribute="trailing" constant="8" id="HTC-UU-rqj"/>
+                                    <constraint firstAttribute="trailing" secondItem="sA9-BX-IM0" secondAttribute="trailing" constant="8" id="JwN-vF-IeT"/>
+                                    <constraint firstAttribute="trailing" secondItem="ppE-e9-hzT" secondAttribute="trailing" constant="8" id="KCm-ar-Vm7"/>
+                                    <constraint firstItem="k2T-js-8iw" firstAttribute="leading" secondItem="vVt-Hq-4rh" secondAttribute="leading" constant="8" id="Vba-KZ-B2R"/>
+                                    <constraint firstItem="k2T-js-8iw" firstAttribute="top" secondItem="ppE-e9-hzT" secondAttribute="bottom" constant="8" id="bK6-vO-gd2"/>
+                                    <constraint firstItem="sA9-BX-IM0" firstAttribute="top" secondItem="vVt-Hq-4rh" secondAttribute="top" id="eHe-UX-aXZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="k2T-js-8iw" secondAttribute="bottom" constant="4" id="qeE-tM-Uis"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vVt-Hq-4rh" firstAttribute="width" relation="lessThanOrEqual" secondItem="hRy-zV-o7w" secondAttribute="width" multiplier="0.72" id="10J-y3-rQH"/>
+                            <constraint firstAttribute="bottom" secondItem="vVt-Hq-4rh" secondAttribute="bottom" constant="8" id="6f2-Zu-OWQ"/>
+                            <constraint firstItem="vVt-Hq-4rh" firstAttribute="top" secondItem="hRy-zV-o7w" secondAttribute="top" constant="8" id="T4g-vr-TT8"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59.5" id="lOi-K0-qD7"/>
+                            <constraint firstAttribute="trailing" secondItem="vVt-Hq-4rh" secondAttribute="trailing" constant="8" id="nf9-5O-Inu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="hRy-zV-o7w" secondAttribute="bottom" id="304-63-L90"/>
+                    <constraint firstItem="hRy-zV-o7w" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dy9-QA-i05"/>
+                    <constraint firstAttribute="trailing" secondItem="hRy-zV-o7w" secondAttribute="trailing" id="XqZ-HX-YPq"/>
+                    <constraint firstItem="hRy-zV-o7w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rbC-RT-A94"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backView" destination="vVt-Hq-4rh" id="hlQ-Wh-opl"/>
+                <outlet property="lblDate" destination="k2T-js-8iw" id="EJ3-0P-pTP"/>
+                <outlet property="lblMessage" destination="ppE-e9-hzT" id="ehF-JJ-XUX"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="103.79464285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

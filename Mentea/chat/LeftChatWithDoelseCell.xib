@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LeftChatWithDoelseCell" rowHeight="32" id="KGk-i7-Jjw" customClass="LeftChatWithDoelseCell" customModule="Mentea" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vga-si-oks">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMh-L7-ygc">
+                                <rect key="frame" x="8" y="8" width="81" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/12/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0t-Ia-ksX">
+                                        <rect key="frame" x="8" y="32" width="73" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="RPp-0A-yx8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="8"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvY-Rp-Ugx">
+                                        <rect key="frame" x="8" y="8" width="65" height="19"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="22"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94117647059999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="z0t-Ia-ksX" firstAttribute="top" secondItem="fvY-Rp-Ugx" secondAttribute="bottom" constant="5" id="15U-ez-2fb"/>
+                                    <constraint firstAttribute="trailing" secondItem="z0t-Ia-ksX" secondAttribute="trailing" id="8vL-ES-mqc"/>
+                                    <constraint firstItem="z0t-Ia-ksX" firstAttribute="leading" secondItem="fvY-Rp-Ugx" secondAttribute="leading" id="PTs-86-99u"/>
+                                    <constraint firstAttribute="trailing" secondItem="fvY-Rp-Ugx" secondAttribute="trailing" constant="8" id="SbR-ZQ-Srk"/>
+                                    <constraint firstAttribute="bottom" secondItem="z0t-Ia-ksX" secondAttribute="bottom" constant="4" id="Xty-Lx-bkz"/>
+                                    <constraint firstItem="fvY-Rp-Ugx" firstAttribute="top" secondItem="TMh-L7-ygc" secondAttribute="top" constant="8" id="rbU-ea-2rN"/>
+                                    <constraint firstItem="fvY-Rp-Ugx" firstAttribute="leading" secondItem="TMh-L7-ygc" secondAttribute="leading" constant="8" id="zfy-hM-byL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TMh-L7-ygc" firstAttribute="top" secondItem="Vga-si-oks" secondAttribute="top" constant="8" id="4O2-9r-zpL"/>
+                            <constraint firstItem="TMh-L7-ygc" firstAttribute="leading" secondItem="Vga-si-oks" secondAttribute="leading" constant="8" id="7rx-Ge-SRW"/>
+                            <constraint firstAttribute="bottom" secondItem="TMh-L7-ygc" secondAttribute="bottom" constant="8" id="GQI-kK-sO5"/>
+                            <constraint firstItem="TMh-L7-ygc" firstAttribute="width" relation="lessThanOrEqual" secondItem="Vga-si-oks" secondAttribute="width" multiplier="0.72" id="RQm-xh-esa"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43.5" id="RzU-Gn-WPM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Vga-si-oks" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8bQ-og-S0N"/>
+                    <constraint firstItem="Vga-si-oks" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="REV-bg-msV"/>
+                    <constraint firstAttribute="bottom" secondItem="Vga-si-oks" secondAttribute="bottom" id="kWa-aZ-lfg"/>
+                    <constraint firstAttribute="trailing" secondItem="Vga-si-oks" secondAttribute="trailing" id="yHZ-Bb-Q4l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backView" destination="Vga-si-oks" id="JBs-wE-jfa"/>
+                <outlet property="lblDate" destination="z0t-Ia-ksX" id="Ds3-DS-dKq"/>
+                <outlet property="lblMessage" destination="fvY-Rp-Ugx" id="L82-PO-Q8e"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="94.419642857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

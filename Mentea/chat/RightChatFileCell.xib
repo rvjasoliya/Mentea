@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="poppins_regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RightChatFileCell" rowHeight="67" id="KGk-i7-Jjw" customClass="RightChatFileCell" customModule="Mentea" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgp-xs-Gh3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chO-Bp-Xlj" userLabel="backView">
+                                <rect key="frame" x="138" y="4" width="176" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_icon" translatesAutoresizingMaskIntoConstraints="NO" id="hnf-fj-IfM">
+                                        <rect key="frame" x="5" y="5" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="o6C-Mo-7qe"/>
+                                            <constraint firstAttribute="height" constant="50" id="z1z-fR-90W"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98f-ql-Jyj">
+                                        <rect key="frame" x="63" y="20" width="110" height="17.5"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/22/2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="In4-GH-cnd">
+                                        <rect key="frame" x="129" y="46" width="41" height="9"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="8"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.03074565902" green="0.56926137210000005" blue="0.8951811194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="In4-GH-cnd" secondAttribute="bottom" constant="5" id="5vF-Kj-u2L"/>
+                                    <constraint firstAttribute="trailing" secondItem="98f-ql-Jyj" secondAttribute="trailing" constant="3" id="JMe-lT-Ed6"/>
+                                    <constraint firstAttribute="trailing" secondItem="In4-GH-cnd" secondAttribute="trailing" constant="6" id="Pqg-nw-vQo"/>
+                                    <constraint firstAttribute="bottom" secondItem="In4-GH-cnd" secondAttribute="bottom" constant="5" id="PrI-vR-Y9O"/>
+                                    <constraint firstItem="hnf-fj-IfM" firstAttribute="leading" secondItem="chO-Bp-Xlj" secondAttribute="leading" constant="5" id="dxE-Zt-eTF"/>
+                                    <constraint firstAttribute="height" constant="60" id="krI-hb-K2i"/>
+                                    <constraint firstAttribute="bottom" secondItem="hnf-fj-IfM" secondAttribute="bottom" constant="5" id="njc-Nc-L8z"/>
+                                    <constraint firstItem="98f-ql-Jyj" firstAttribute="leading" secondItem="hnf-fj-IfM" secondAttribute="trailing" constant="8" id="qUT-vz-SeR"/>
+                                    <constraint firstItem="98f-ql-Jyj" firstAttribute="top" secondItem="chO-Bp-Xlj" secondAttribute="top" constant="20" id="rBx-kb-ePY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="chO-Bp-Xlj" secondAttribute="bottom" constant="4" id="6kg-nf-5MH"/>
+                            <constraint firstAttribute="bottom" secondItem="chO-Bp-Xlj" secondAttribute="bottom" constant="4" id="OPg-up-ube"/>
+                            <constraint firstItem="chO-Bp-Xlj" firstAttribute="centerX" secondItem="wgp-xs-Gh3" secondAttribute="centerX" constant="66" id="ZSp-F5-WSC"/>
+                            <constraint firstItem="chO-Bp-Xlj" firstAttribute="top" secondItem="wgp-xs-Gh3" secondAttribute="top" constant="4" id="bXK-hU-1wK"/>
+                            <constraint firstAttribute="trailing" secondItem="chO-Bp-Xlj" secondAttribute="trailing" constant="6" id="cFj-kr-biR"/>
+                            <constraint firstAttribute="trailing" secondItem="chO-Bp-Xlj" secondAttribute="trailing" constant="6" id="cfd-Z7-Da7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="wgp-xs-Gh3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4lc-h4-0BI"/>
+                    <constraint firstAttribute="trailing" secondItem="wgp-xs-Gh3" secondAttribute="trailing" id="4lz-w9-d74"/>
+                    <constraint firstItem="wgp-xs-Gh3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="g9U-yF-QHT"/>
+                    <constraint firstAttribute="bottom" secondItem="wgp-xs-Gh3" secondAttribute="bottom" constant="-1.5" id="sDW-8F-0zo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgFileType" destination="hnf-fj-IfM" id="yWD-Rj-YhI"/>
+                <outlet property="lblDate" destination="In4-GH-cnd" id="E1E-HE-9Tm"/>
+                <outlet property="lblText" destination="98f-ql-Jyj" id="C0U-ts-bK0"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-115.51339285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="video_icon" width="225" height="225"/>
+    </resources>
+</document>

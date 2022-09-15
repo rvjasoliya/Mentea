@@ -1,0 +1,1350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017C4A623EE4E5B6DD808A42 /* Pods_MenteaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEE032CDD57BD424D512B8A /* Pods_MenteaTests.framework */; };
+		180573D924BED45200190FF1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573D824BED45200190FF1 /* MenuViewController.swift */; };
+		180573DB24BED4CB00190FF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573DA24BED4CB00190FF1 /* HomeViewController.swift */; };
+		180573E824BED99300190FF1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180573E624BED99200190FF1 /* SWRevealViewController.m */; };
+		180573EA24BEE2D300190FF1 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573E924BEE2D300190FF1 /* HeaderCell.swift */; };
+		180573EC24BEE2F300190FF1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573EB24BEE2F300190FF1 /* MenuTableViewCell.swift */; };
+		180573EE24BF448300190FF1 /* ProfileNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573ED24BF448300190FF1 /* ProfileNewViewController.swift */; };
+		180573F924BF530600190FF1 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 180573F024BF530600190FF1 /* CarbonSwipeRefresh.m */; };
+		180573FA24BF530600190FF1 /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 180573F624BF530600190FF1 /* CarbonTabSwipeSegmentedControl.m */; };
+		180573FB24BF530600190FF1 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 180573F724BF530600190FF1 /* CarbonTabSwipeNavigation.m */; };
+		180573FC24BF530600190FF1 /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180573F824BF530600190FF1 /* CarbonTabSwipeScrollView.m */; };
+		180573FE24BF5A4300190FF1 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573FD24BF5A4300190FF1 /* UserListViewController.swift */; };
+		180E9EFD247D1896002991A5 /* KGRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E9EFC247D1896002991A5 /* KGRadioButton.swift */; };
+		1811CBDE24D2A6180070AF7E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811CBDD24D2A6180070AF7E /* File.swift */; };
+		181BAB2C24A5F77E009B1805 /* UpdateCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BAB2B24A5F77E009B1805 /* UpdateCommentVC.swift */; };
+		181E8E6724A2111A00663A2A /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8E6624A2111A00663A2A /* UserCollectionViewCell.swift */; };
+		18263AEB24C6CC900019F1A5 /* SignUpMentor1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AEA24C6CC900019F1A5 /* SignUpMentor1VC.swift */; };
+		18263AED24C6CCE50019F1A5 /* SignUpMentor2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AEC24C6CCE50019F1A5 /* SignUpMentor2VC.swift */; };
+		18263AEF24C6CD1E0019F1A5 /* SignUpMentor3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AEE24C6CD1E0019F1A5 /* SignUpMentor3VC.swift */; };
+		18263AF124C6CD810019F1A5 /* SignUpMentor4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF024C6CD810019F1A5 /* SignUpMentor4VC.swift */; };
+		18263AF324C6CDD00019F1A5 /* SignUpMentor5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF224C6CDD00019F1A5 /* SignUpMentor5VC.swift */; };
+		18263AF924C71BA00019F1A5 /* SignupMentee5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF424C71BA00019F1A5 /* SignupMentee5ViewController.swift */; };
+		18263AFA24C71BA00019F1A5 /* SignupMentee3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF524C71BA00019F1A5 /* SignupMentee3ViewController.swift */; };
+		18263AFB24C71BA00019F1A5 /* SignupMentee1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF624C71BA00019F1A5 /* SignupMentee1ViewController.swift */; };
+		18263AFC24C71BA00019F1A5 /* SignupMentee2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF724C71BA00019F1A5 /* SignupMentee2ViewController.swift */; };
+		18263AFD24C71BA00019F1A5 /* SignupMentee4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AF824C71BA00019F1A5 /* SignupMentee4ViewController.swift */; };
+		18263AFF24C7331A0019F1A5 /* MenteeEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263AFE24C7331A0019F1A5 /* MenteeEditProfileViewController.swift */; };
+		1827692B24CC828800708598 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827692924CC828600708598 /* FilterViewController.swift */; };
+		1827692C24CC828800708598 /* HobbiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827692A24CC828700708598 /* HobbiesCollectionViewCell.swift */; };
+		182BBB5E2477AB5B000969EB /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BBB5D2477AB5B000969EB /* UIConstants.swift */; };
+		182E746C24C80DF40055A574 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E746B24C80DF40055A574 /* SplashViewController.swift */; };
+		183898822480DF4600C46196 /* MenteeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183898812480DF4600C46196 /* MenteeView.swift */; };
+		183898842480E37800C46196 /* ManteeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183898832480E37800C46196 /* ManteeView.xib */; };
+		1839907F247928BF00102D6F /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839907E247928BF00102D6F /* BlogViewController.swift */; };
+		183990812479290900102D6F /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183990802479290900102D6F /* ChatListViewController.swift */; };
+		1842948A24794B4A003D3460 /* BlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842948924794B49003D3460 /* BlogTableViewCell.swift */; };
+		1842948C24795019003D3460 /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842948B24795019003D3460 /* UsersCollectionViewCell.swift */; };
+		1842948E24795657003D3460 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842948D24795657003D3460 /* UserListTableViewCell.swift */; };
+		1842949024796524003D3460 /* SwipeUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842948F24796524003D3460 /* SwipeUserViewController.swift */; };
+		18429493247966E0003D3460 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18429492247966E0003D3460 /* UserModel.swift */; };
+		184294962479697B003D3460 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184294942479697B003D3460 /* CustomView.swift */; };
+		184294972479697B003D3460 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184294952479697B003D3460 /* CustomView.xib */; };
+		1843391F248037FA0041BB20 /* CustomManteeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1843391E248037FA0041BB20 /* CustomManteeView.xib */; };
+		18433921248038080041BB20 /* CustomManteeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18433920248038080041BB20 /* CustomManteeView.swift */; };
+		1845C0DF24768BD40023EF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845C0DE24768BD40023EF49 /* AppDelegate.swift */; };
+		1845C0E124768BD40023EF49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845C0E024768BD40023EF49 /* SceneDelegate.swift */; };
+		1845C0E324768BD40023EF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845C0E224768BD40023EF49 /* ViewController.swift */; };
+		1845C0E624768BD40023EF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C0E424768BD40023EF49 /* Main.storyboard */; };
+		1845C0E824768BD60023EF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1845C0E724768BD60023EF49 /* Assets.xcassets */; };
+		1845C0EB24768BD60023EF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1845C0E924768BD60023EF49 /* LaunchScreen.storyboard */; };
+		1845C0F624768BD60023EF49 /* MenteaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845C0F524768BD60023EF49 /* MenteaTests.swift */; };
+		1845C10124768BD60023EF49 /* MenteaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845C10024768BD60023EF49 /* MenteaUITests.swift */; };
+		1845E6FF24810C6C007E9D47 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845E6FE24810C6C007E9D47 /* ForgetViewController.swift */; };
+		1846EACB24A4D71500BEB26C /* MyCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846EAC924A4D71500BEB26C /* MyCell1.swift */; };
+		1846EACC24A4D71500BEB26C /* MyCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846EACA24A4D71500BEB26C /* MyCell1.xib */; };
+		184927902482BA47004906C4 /* MessageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849278F2482BA47004906C4 /* MessageModal.swift */; };
+		1849279E2482C136004906C4 /* RightChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184927922482C136004906C4 /* RightChatImageCell.swift */; };
+		1849279F2482C136004906C4 /* RightChatWithDoelseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184927932482C136004906C4 /* RightChatWithDoelseCell.xib */; };
+		184927A02482C136004906C4 /* RightChatFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184927942482C136004906C4 /* RightChatFileCell.swift */; };
+		184927A12482C136004906C4 /* LeftChatWithDoelseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184927952482C136004906C4 /* LeftChatWithDoelseCell.swift */; };
+		184927A22482C136004906C4 /* RightChatWithDoelseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184927962482C136004906C4 /* RightChatWithDoelseCell.swift */; };
+		184927A32482C136004906C4 /* LeftChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184927972482C136004906C4 /* LeftChatImageCell.swift */; };
+		184927A42482C136004906C4 /* LeftChatWithDoelseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184927982482C136004906C4 /* LeftChatWithDoelseCell.xib */; };
+		184927A52482C136004906C4 /* LeftChatImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184927992482C136004906C4 /* LeftChatImageCell.xib */; };
+		184927A62482C136004906C4 /* RightChatImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1849279A2482C136004906C4 /* RightChatImageCell.xib */; };
+		184927A82482C136004906C4 /* LeftChaFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849279C2482C136004906C4 /* LeftChaFileCell.swift */; };
+		18494BC324797FBE009D7882 /* ProfileMentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18494BC224797FBE009D7882 /* ProfileMentorViewController.swift */; };
+		18494BC524799079009D7882 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18494BC424799079009D7882 /* ChatViewController.swift */; };
+		18494BC82479954E009D7882 /* SenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18494BC62479954E009D7882 /* SenderTableViewCell.swift */; };
+		18494BC92479954E009D7882 /* ReceiverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18494BC72479954E009D7882 /* ReceiverTableViewCell.swift */; };
+		1849EBC124C2E2B400B9A927 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBC024C2E2B300B9A927 /* VideoChatViewController.swift */; };
+		1849EBC324C2E33D00B9A927 /* Log.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1849EBC224C2E33D00B9A927 /* Log.storyboard */; };
+		1849EBC624C2E38900B9A927 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBC424C2E38900B9A927 /* LogViewController.swift */; };
+		1849EBC724C2E38900B9A927 /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBC524C2E38900B9A927 /* AppID.swift */; };
+		1849EBC924C3029300B9A927 /* IncomingCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBC824C3029300B9A927 /* IncomingCallViewController.swift */; };
+		1849EBCB24C31E8E00B9A927 /* VoiceChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBCA24C31E8D00B9A927 /* VoiceChatViewController.swift */; };
+		1849EBCD24C3283100B9A927 /* ArchiveQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBCC24C3283100B9A927 /* ArchiveQueueViewController.swift */; };
+		1849EBCF24C3500E00B9A927 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849EBCE24C3500E00B9A927 /* EditProfileViewController.swift */; };
+		184CC63C2476B645002018B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CC63B2476B645002018B8 /* LoginViewController.swift */; };
+		185E615C24D5AD2400068EE6 /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E615824D5AD2300068EE6 /* ZoomImageViewController.swift */; };
+		185E615D24D5AD2400068EE6 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E615924D5AD2300068EE6 /* VideoViewController.swift */; };
+		185E615E24D5AD2400068EE6 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E615A24D5AD2400068EE6 /* VideoView.swift */; };
+		185E615F24D5AD2400068EE6 /* ZoomImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E615B24D5AD2400068EE6 /* ZoomImageCollectionViewCell.swift */; };
+		185E616124D5AEF700068EE6 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E616024D5AEF700068EE6 /* FullImageViewController.swift */; };
+		185EB50D24CF10B500C89E1A /* MenteeFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EB50C24CF10B500C89E1A /* MenteeFilterViewController.swift */; };
+		185FFF8D24CEB4EC0056CED4 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FFF8C24CEB4EC0056CED4 /* PopViewController.swift */; };
+		186069BF247BFB8400CEB7CB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186069BE247BFB8400CEB7CB /* Helper.swift */; };
+		186B4C1F24DC304400FDC104 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B4C1D24DC304400FDC104 /* TextTableViewCell.swift */; };
+		186B4C2024DC304400FDC104 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B4C1E24DC304400FDC104 /* TextTableViewCell.xib */; };
+		186B4C2224DC404700FDC104 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B4C2124DC404700FDC104 /* ImageTableViewCell.xib */; };
+		186B4C2424DC4A7F00FDC104 /* DocumentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B4C2324DC4A7F00FDC104 /* DocumentTableViewCell.xib */; };
+		186B4C2624DC4B2300FDC104 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B4C2524DC4B2300FDC104 /* DocumentTableViewCell.swift */; };
+		186B4C2824DC4B3400FDC104 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B4C2724DC4B3400FDC104 /* ImageTableViewCell.swift */; };
+		187060F124D5752A00ED0B65 /* MentorSignupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187060F024D5752A00ED0B65 /* MentorSignupCollectionViewCell.swift */; };
+		187060F324D586CC00ED0B65 /* MenteeSignupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187060F224D586CC00ED0B65 /* MenteeSignupCollectionViewCell.swift */; };
+		18AAB5E824EBBC950062A921 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB5E724EBBC950062A921 /* QuestionTableViewCell.swift */; };
+		18CBB98A24C5B42600C2AEAE /* RightChatFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CBB98924C5B42600C2AEAE /* RightChatFileCell.xib */; };
+		18CBB98C24C5B4BB00C2AEAE /* LeftChaFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CBB98B24C5B4BA00C2AEAE /* LeftChaFileCell.xib */; };
+		18CBB98E24C5CEE800C2AEAE /* MenteeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CBB98D24C5CEE800C2AEAE /* MenteeProfileViewController.swift */; };
+		18D06BBE2477CC2F0050DFD5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06BBD2477CC2F0050DFD5 /* SignUpViewController.swift */; };
+		18D06BC22478092B0050DFD5 /* SignupStep1MrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06BC12478092B0050DFD5 /* SignupStep1MrViewController.swift */; };
+		18D06BC42478126E0050DFD5 /* SignupStep2MrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06BC32478126E0050DFD5 /* SignupStep2MrViewController.swift */; };
+		18D06BC624783F300050DFD5 /* SignupStep2MenteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06BC524783F300050DFD5 /* SignupStep2MenteeViewController.swift */; };
+		18E49F2024D2FE6B007BB9F0 /* SuggestedMentorProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E49F1F24D2FE6B007BB9F0 /* SuggestedMentorProfileVC.swift */; };
+		18E49F2224D2FFAC007BB9F0 /* SuggestedMenteeProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E49F2124D2FFAC007BB9F0 /* SuggestedMenteeProfileVC.swift */; };
+		18ECD1F924DECD57002A437B /* MenteeProfileVC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECD1F824DECD57002A437B /* MenteeProfileVC2ViewController.swift */; };
+		18F3860F24C05A1F00AA7A20 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3860E24C05A1F00AA7A20 /* AboutViewController.swift */; };
+		18F773ED247BD9C100BDB4F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F773EC247BD9C100BDB4F7 /* GoogleService-Info.plist */; };
+		18F9D4AB247F8948009BCB4F /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4AA247F8948009BCB4F /* StorageService.swift */; };
+		18FAC1552482918900E69A27 /* MessageUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAC1542482918900E69A27 /* MessageUserList.swift */; };
+		18FD31C824C1847B00D71C5A /* TutorialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD31C724C1847B00D71C5A /* TutorialCollectionViewController.swift */; };
+		18FD31CC24C1FF0300D71C5A /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD31CB24C1FF0300D71C5A /* TutorialCollectionViewCell.swift */; };
+		883AA2C62499022C00703175 /* ProfileMenteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883AA2C52499022C00703175 /* ProfileMenteeViewController.swift */; };
+		896B3E9BD7314E2257C038D2 /* Pods_Mentea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56327C2A47299CAD6946F003 /* Pods_Mentea.framework */; };
+		B305FF34249362D50029DAF3 /* BlogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305FF33249362D50029DAF3 /* BlogsModel.swift */; };
+		B305FF36249394CA0029DAF3 /* CommentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305FF35249394CA0029DAF3 /* CommentListVC.swift */; };
+		B34AA8362493961C00E0BE61 /* CommentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA8352493961C00E0BE61 /* CommentListCell.swift */; };
+		B34AA838249397A500E0BE61 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AA837249397A500E0BE61 /* CreatePostVC.swift */; };
+		B3C8241524925BE500B621D0 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8241324925BE500B621D0 /* MyCell.swift */; };
+		B3C8241624925BE500B621D0 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C8241424925BE500B621D0 /* MyCell.xib */; };
+		B3E55D8E2493A92000BFA188 /* MyBlogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E55D8D2493A92000BFA188 /* MyBlogsVC.swift */; };
+		B3F1B7DA249493C20002DB1F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1B7D9249493C20002DB1F /* Global.swift */; };
+		B3F1B7DE2494D6C40002DB1F /* loginPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1B7DC2494D6C40002DB1F /* loginPasswordView.swift */; };
+		B3F1B7DF2494D6C40002DB1F /* loginPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F1B7DD2494D6C40002DB1F /* loginPasswordView.xib */; };
+		B3F1B7E22494FDE20002DB1F /* LoginTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1B7E02494FDE20002DB1F /* LoginTypeView.swift */; };
+		B3F1B7E32494FDE20002DB1F /* LoginTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F1B7E12494FDE20002DB1F /* LoginTypeView.xib */; };
+		FC226252F330793EC8985CFE /* Pods_Mentea_MenteaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD008026C7EEE4A7C8776134 /* Pods_Mentea_MenteaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1845C0F224768BD60023EF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845C0D324768BD30023EF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845C0DA24768BD40023EF49;
+			remoteInfo = Mentea;
+		};
+		1845C0FD24768BD60023EF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1845C0D324768BD30023EF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1845C0DA24768BD40023EF49;
+			remoteInfo = Mentea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18040EB124D44BF300362B4A /* Mentea.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mentea.entitlements; sourceTree = "<group>"; };
+		180573D824BED45200190FF1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		180573DA24BED4CB00190FF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		180573E524BED99100190FF1 /* Mentea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mentea-Bridging-Header.h"; sourceTree = "<group>"; };
+		180573E624BED99200190FF1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		180573E724BED99300190FF1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		180573E924BEE2D300190FF1 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		180573EB24BEE2F300190FF1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		180573ED24BF448300190FF1 /* ProfileNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNewViewController.swift; sourceTree = "<group>"; };
+		180573F024BF530600190FF1 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		180573F124BF530600190FF1 /* CarbonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonKit.h; sourceTree = "<group>"; };
+		180573F224BF530600190FF1 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		180573F324BF530600190FF1 /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		180573F424BF530600190FF1 /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		180573F524BF530600190FF1 /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		180573F624BF530600190FF1 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+		180573F724BF530600190FF1 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		180573F824BF530600190FF1 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		180573FD24BF5A4300190FF1 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		180E9EFC247D1896002991A5 /* KGRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGRadioButton.swift; sourceTree = "<group>"; };
+		1811CBDD24D2A6180070AF7E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		181BAB2B24A5F77E009B1805 /* UpdateCommentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCommentVC.swift; sourceTree = "<group>"; };
+		181E8E6624A2111A00663A2A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		18263AEA24C6CC900019F1A5 /* SignUpMentor1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMentor1VC.swift; sourceTree = "<group>"; };
+		18263AEC24C6CCE50019F1A5 /* SignUpMentor2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMentor2VC.swift; sourceTree = "<group>"; };
+		18263AEE24C6CD1E0019F1A5 /* SignUpMentor3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMentor3VC.swift; sourceTree = "<group>"; };
+		18263AF024C6CD810019F1A5 /* SignUpMentor4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMentor4VC.swift; sourceTree = "<group>"; };
+		18263AF224C6CDD00019F1A5 /* SignUpMentor5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMentor5VC.swift; sourceTree = "<group>"; };
+		18263AF424C71BA00019F1A5 /* SignupMentee5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupMentee5ViewController.swift; sourceTree = "<group>"; };
+		18263AF524C71BA00019F1A5 /* SignupMentee3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupMentee3ViewController.swift; sourceTree = "<group>"; };
+		18263AF624C71BA00019F1A5 /* SignupMentee1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupMentee1ViewController.swift; sourceTree = "<group>"; };
+		18263AF724C71BA00019F1A5 /* SignupMentee2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupMentee2ViewController.swift; sourceTree = "<group>"; };
+		18263AF824C71BA00019F1A5 /* SignupMentee4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupMentee4ViewController.swift; sourceTree = "<group>"; };
+		18263AFE24C7331A0019F1A5 /* MenteeEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeEditProfileViewController.swift; sourceTree = "<group>"; };
+		1827692924CC828600708598 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		1827692A24CC828700708598 /* HobbiesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		182BBB5D2477AB5B000969EB /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		182E746B24C80DF40055A574 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		183898812480DF4600C46196 /* MenteeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeView.swift; sourceTree = "<group>"; };
+		183898832480E37800C46196 /* ManteeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManteeView.xib; sourceTree = "<group>"; };
+		1839907E247928BF00102D6F /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		183990802479290900102D6F /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		1842948924794B49003D3460 /* BlogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewCell.swift; sourceTree = "<group>"; };
+		1842948B24795019003D3460 /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+		1842948D24795657003D3460 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		1842948F24796524003D3460 /* SwipeUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeUserViewController.swift; sourceTree = "<group>"; };
+		18429492247966E0003D3460 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		184294942479697B003D3460 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		184294952479697B003D3460 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		1843391E248037FA0041BB20 /* CustomManteeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomManteeView.xib; sourceTree = "<group>"; };
+		18433920248038080041BB20 /* CustomManteeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomManteeView.swift; sourceTree = "<group>"; };
+		1845C0DB24768BD40023EF49 /* Mentea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C0DE24768BD40023EF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1845C0E024768BD40023EF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1845C0E224768BD40023EF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1845C0E524768BD40023EF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1845C0E724768BD60023EF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1845C0EA24768BD60023EF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1845C0EC24768BD60023EF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845C0F124768BD60023EF49 /* MenteaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenteaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C0F524768BD60023EF49 /* MenteaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteaTests.swift; sourceTree = "<group>"; };
+		1845C0F724768BD60023EF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845C0FC24768BD60023EF49 /* MenteaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenteaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1845C10024768BD60023EF49 /* MenteaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteaUITests.swift; sourceTree = "<group>"; };
+		1845C10224768BD60023EF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1845E6FE24810C6C007E9D47 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		1846EAC924A4D71500BEB26C /* MyCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell1.swift; sourceTree = "<group>"; };
+		1846EACA24A4D71500BEB26C /* MyCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell1.xib; sourceTree = "<group>"; };
+		1849278F2482BA47004906C4 /* MessageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModal.swift; sourceTree = "<group>"; };
+		184927922482C136004906C4 /* RightChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightChatImageCell.swift; sourceTree = "<group>"; };
+		184927932482C136004906C4 /* RightChatWithDoelseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightChatWithDoelseCell.xib; sourceTree = "<group>"; };
+		184927942482C136004906C4 /* RightChatFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightChatFileCell.swift; sourceTree = "<group>"; };
+		184927952482C136004906C4 /* LeftChatWithDoelseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftChatWithDoelseCell.swift; sourceTree = "<group>"; };
+		184927962482C136004906C4 /* RightChatWithDoelseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightChatWithDoelseCell.swift; sourceTree = "<group>"; };
+		184927972482C136004906C4 /* LeftChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftChatImageCell.swift; sourceTree = "<group>"; };
+		184927982482C136004906C4 /* LeftChatWithDoelseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftChatWithDoelseCell.xib; sourceTree = "<group>"; };
+		184927992482C136004906C4 /* LeftChatImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftChatImageCell.xib; sourceTree = "<group>"; };
+		1849279A2482C136004906C4 /* RightChatImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightChatImageCell.xib; sourceTree = "<group>"; };
+		1849279C2482C136004906C4 /* LeftChaFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftChaFileCell.swift; sourceTree = "<group>"; };
+		18494BC224797FBE009D7882 /* ProfileMentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMentorViewController.swift; sourceTree = "<group>"; };
+		18494BC424799079009D7882 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18494BC62479954E009D7882 /* SenderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderTableViewCell.swift; sourceTree = "<group>"; };
+		18494BC72479954E009D7882 /* ReceiverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverTableViewCell.swift; sourceTree = "<group>"; };
+		1849EBC024C2E2B300B9A927 /* VideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
+		1849EBC224C2E33D00B9A927 /* Log.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Log.storyboard; sourceTree = "<group>"; };
+		1849EBC424C2E38900B9A927 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		1849EBC524C2E38900B9A927 /* AppID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
+		1849EBC824C3029300B9A927 /* IncomingCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallViewController.swift; sourceTree = "<group>"; };
+		1849EBCA24C31E8D00B9A927 /* VoiceChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceChatViewController.swift; sourceTree = "<group>"; };
+		1849EBCC24C3283100B9A927 /* ArchiveQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveQueueViewController.swift; sourceTree = "<group>"; };
+		1849EBCE24C3500E00B9A927 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		184CC63B2476B645002018B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		185E615824D5AD2300068EE6 /* ZoomImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
+		185E615924D5AD2300068EE6 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		185E615A24D5AD2400068EE6 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		185E615B24D5AD2400068EE6 /* ZoomImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		185E616024D5AEF700068EE6 /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		185EB50C24CF10B500C89E1A /* MenteeFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeFilterViewController.swift; sourceTree = "<group>"; };
+		185FFF8C24CEB4EC0056CED4 /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		186069BE247BFB8400CEB7CB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		186B4C1D24DC304400FDC104 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		186B4C1E24DC304400FDC104 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		186B4C2124DC404700FDC104 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		186B4C2324DC4A7F00FDC104 /* DocumentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentTableViewCell.xib; sourceTree = "<group>"; };
+		186B4C2524DC4B2300FDC104 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		186B4C2724DC4B3400FDC104 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		187060F024D5752A00ED0B65 /* MentorSignupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorSignupCollectionViewCell.swift; sourceTree = "<group>"; };
+		187060F224D586CC00ED0B65 /* MenteeSignupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeSignupCollectionViewCell.swift; sourceTree = "<group>"; };
+		18AAB5E724EBBC950062A921 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		18CBB98924C5B42600C2AEAE /* RightChatFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightChatFileCell.xib; sourceTree = "<group>"; };
+		18CBB98B24C5B4BA00C2AEAE /* LeftChaFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftChaFileCell.xib; sourceTree = "<group>"; };
+		18CBB98D24C5CEE800C2AEAE /* MenteeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeProfileViewController.swift; sourceTree = "<group>"; };
+		18D06BBD2477CC2F0050DFD5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18D06BC12478092B0050DFD5 /* SignupStep1MrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupStep1MrViewController.swift; sourceTree = "<group>"; };
+		18D06BC32478126E0050DFD5 /* SignupStep2MrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupStep2MrViewController.swift; sourceTree = "<group>"; };
+		18D06BC524783F300050DFD5 /* SignupStep2MenteeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupStep2MenteeViewController.swift; sourceTree = "<group>"; };
+		18E49F1F24D2FE6B007BB9F0 /* SuggestedMentorProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedMentorProfileVC.swift; sourceTree = "<group>"; };
+		18E49F2124D2FFAC007BB9F0 /* SuggestedMenteeProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedMenteeProfileVC.swift; sourceTree = "<group>"; };
+		18ECD1F824DECD57002A437B /* MenteeProfileVC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeProfileVC2ViewController.swift; sourceTree = "<group>"; };
+		18F3860E24C05A1F00AA7A20 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		18F773EC247BD9C100BDB4F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Mentea/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18F9D4AA247F8948009BCB4F /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		18FAC1542482918900E69A27 /* MessageUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUserList.swift; sourceTree = "<group>"; };
+		18FD31C724C1847B00D71C5A /* TutorialCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewController.swift; sourceTree = "<group>"; };
+		18FD31CB24C1FF0300D71C5A /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		44E7C80C34EEC9BC6D57A170 /* Pods-Mentea-MenteaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentea-MenteaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mentea-MenteaUITests/Pods-Mentea-MenteaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56327C2A47299CAD6946F003 /* Pods_Mentea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mentea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F95EFCCDA405CC3965785C /* Pods-Mentea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentea.debug.xcconfig"; path = "Target Support Files/Pods-Mentea/Pods-Mentea.debug.xcconfig"; sourceTree = "<group>"; };
+		883AA2C52499022C00703175 /* ProfileMenteeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenteeViewController.swift; sourceTree = "<group>"; };
+		98B6A6C32D69EAC7F6BF0432 /* Pods-Mentea-MenteaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentea-MenteaUITests.release.xcconfig"; path = "Target Support Files/Pods-Mentea-MenteaUITests/Pods-Mentea-MenteaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B305FF33249362D50029DAF3 /* BlogsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsModel.swift; sourceTree = "<group>"; };
+		B305FF35249394CA0029DAF3 /* CommentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListVC.swift; sourceTree = "<group>"; };
+		B34AA8352493961C00E0BE61 /* CommentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListCell.swift; sourceTree = "<group>"; };
+		B34AA837249397A500E0BE61 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		B3C8241324925BE500B621D0 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		B3C8241424925BE500B621D0 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		B3E55D8D2493A92000BFA188 /* MyBlogsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlogsVC.swift; sourceTree = "<group>"; };
+		B3F1B7D9249493C20002DB1F /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B3F1B7DC2494D6C40002DB1F /* loginPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPasswordView.swift; sourceTree = "<group>"; };
+		B3F1B7DD2494D6C40002DB1F /* loginPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loginPasswordView.xib; sourceTree = "<group>"; };
+		B3F1B7E02494FDE20002DB1F /* LoginTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTypeView.swift; sourceTree = "<group>"; };
+		B3F1B7E12494FDE20002DB1F /* LoginTypeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTypeView.xib; sourceTree = "<group>"; };
+		C0486BD990753AE23B44979B /* Pods-MenteaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenteaTests.release.xcconfig"; path = "Target Support Files/Pods-MenteaTests/Pods-MenteaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD008026C7EEE4A7C8776134 /* Pods_Mentea_MenteaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mentea_MenteaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D8CB6196FC8EEFE71ED73 /* Pods-MenteaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenteaTests.debug.xcconfig"; path = "Target Support Files/Pods-MenteaTests/Pods-MenteaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E053C3C35BB4AD5282A93800 /* Pods-Mentea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mentea.release.xcconfig"; path = "Target Support Files/Pods-Mentea/Pods-Mentea.release.xcconfig"; sourceTree = "<group>"; };
+		EEEE032CDD57BD424D512B8A /* Pods_MenteaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenteaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1845C0D824768BD40023EF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896B3E9BD7314E2257C038D2 /* Pods_Mentea.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0EE24768BD60023EF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017C4A623EE4E5B6DD808A42 /* Pods_MenteaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0F924768BD60023EF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC226252F330793EC8985CFE /* Pods_Mentea_MenteaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5C1181027A4E958B711505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56327C2A47299CAD6946F003 /* Pods_Mentea.framework */,
+				DD008026C7EEE4A7C8776134 /* Pods_Mentea_MenteaUITests.framework */,
+				EEEE032CDD57BD424D512B8A /* Pods_MenteaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180573D324BED17900190FF1 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		180573EF24BF530600190FF1 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				180573F024BF530600190FF1 /* CarbonSwipeRefresh.m */,
+				180573F124BF530600190FF1 /* CarbonKit.h */,
+				180573F224BF530600190FF1 /* CarbonTabSwipeSegmentedControl.h */,
+				180573F324BF530600190FF1 /* CarbonTabSwipeScrollView.h */,
+				180573F424BF530600190FF1 /* CarbonTabSwipeNavigation.h */,
+				180573F524BF530600190FF1 /* CarbonSwipeRefresh.h */,
+				180573F624BF530600190FF1 /* CarbonTabSwipeSegmentedControl.m */,
+				180573F724BF530600190FF1 /* CarbonTabSwipeNavigation.m */,
+				180573F824BF530600190FF1 /* CarbonTabSwipeScrollView.m */,
+			);
+			path = CarbonKit;
+			sourceTree = "<group>";
+		};
+		181C1A6724DC22CA00B5BA49 /* BlogView */ = {
+			isa = PBXGroup;
+			children = (
+				186B4C2324DC4A7F00FDC104 /* DocumentTableViewCell.xib */,
+				186B4C2124DC404700FDC104 /* ImageTableViewCell.xib */,
+				186B4C1D24DC304400FDC104 /* TextTableViewCell.swift */,
+				186B4C1E24DC304400FDC104 /* TextTableViewCell.xib */,
+				186B4C2524DC4B2300FDC104 /* DocumentTableViewCell.swift */,
+				186B4C2724DC4B3400FDC104 /* ImageTableViewCell.swift */,
+			);
+			path = BlogView;
+			sourceTree = "<group>";
+		};
+		182BBB5C2477AB06000969EB /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				182BBB5D2477AB5B000969EB /* UIConstants.swift */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		18429491247966C6003D3460 /* OtherClass */ = {
+			isa = PBXGroup;
+			children = (
+				1846EAC924A4D71500BEB26C /* MyCell1.swift */,
+				1846EACA24A4D71500BEB26C /* MyCell1.xib */,
+				183898832480E37800C46196 /* ManteeView.xib */,
+				18433920248038080041BB20 /* CustomManteeView.swift */,
+				1843391E248037FA0041BB20 /* CustomManteeView.xib */,
+				184294942479697B003D3460 /* CustomView.swift */,
+				184294952479697B003D3460 /* CustomView.xib */,
+				18429492247966E0003D3460 /* UserModel.swift */,
+				186069BE247BFB8400CEB7CB /* Helper.swift */,
+				180E9EFC247D1896002991A5 /* KGRadioButton.swift */,
+				183898812480DF4600C46196 /* MenteeView.swift */,
+				18FAC1542482918900E69A27 /* MessageUserList.swift */,
+				1849278F2482BA47004906C4 /* MessageModal.swift */,
+				B3C8241324925BE500B621D0 /* MyCell.swift */,
+				B3C8241424925BE500B621D0 /* MyCell.xib */,
+				B305FF33249362D50029DAF3 /* BlogsModel.swift */,
+				B3F1B7D9249493C20002DB1F /* Global.swift */,
+				1811CBDD24D2A6180070AF7E /* File.swift */,
+			);
+			path = OtherClass;
+			sourceTree = "<group>";
+		};
+		1845C0D224768BD30023EF49 = {
+			isa = PBXGroup;
+			children = (
+				18F773EC247BD9C100BDB4F7 /* GoogleService-Info.plist */,
+				1845C0DD24768BD40023EF49 /* Mentea */,
+				1845C0F424768BD60023EF49 /* MenteaTests */,
+				1845C0FF24768BD60023EF49 /* MenteaUITests */,
+				1845C0DC24768BD40023EF49 /* Products */,
+				2749F85AA4F5856A9CAB51D7 /* Pods */,
+				0F5C1181027A4E958B711505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1845C0DC24768BD40023EF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1845C0DB24768BD40023EF49 /* Mentea.app */,
+				1845C0F124768BD60023EF49 /* MenteaTests.xctest */,
+				1845C0FC24768BD60023EF49 /* MenteaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1845C0DD24768BD40023EF49 /* Mentea */ = {
+			isa = PBXGroup;
+			children = (
+				181C1A6724DC22CA00B5BA49 /* BlogView */,
+				18040EB124D44BF300362B4A /* Mentea.entitlements */,
+				18CBB99024C5F05D00C2AEAE /* MenteeSignUpViewController */,
+				18CBB98F24C5EFB600C2AEAE /* MentorSignUpViewController */,
+				1849EBC524C2E38900B9A927 /* AppID.swift */,
+				1849EBC424C2E38900B9A927 /* LogViewController.swift */,
+				1849EBC224C2E33D00B9A927 /* Log.storyboard */,
+				180573EF24BF530600190FF1 /* CarbonKit */,
+				180573D324BED17900190FF1 /* SWRevealViewController */,
+				B3F1B7DB2494D67D0002DB1F /* CustomView */,
+				1880C0CD247BED000053072E /* chat */,
+				18429491247966C6003D3460 /* OtherClass */,
+				182BBB5C2477AB06000969EB /* UIExtension */,
+				184CC63A2476B62E002018B8 /* ViewController */,
+				1845C0DE24768BD40023EF49 /* AppDelegate.swift */,
+				1845C0E024768BD40023EF49 /* SceneDelegate.swift */,
+				1845C0E224768BD40023EF49 /* ViewController.swift */,
+				1845C0E424768BD40023EF49 /* Main.storyboard */,
+				1845C0E724768BD60023EF49 /* Assets.xcassets */,
+				1845C0E924768BD60023EF49 /* LaunchScreen.storyboard */,
+				1845C0EC24768BD60023EF49 /* Info.plist */,
+				182E746B24C80DF40055A574 /* SplashViewController.swift */,
+			);
+			path = Mentea;
+			sourceTree = "<group>";
+		};
+		1845C0F424768BD60023EF49 /* MenteaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1845C0F524768BD60023EF49 /* MenteaTests.swift */,
+				1845C0F724768BD60023EF49 /* Info.plist */,
+			);
+			path = MenteaTests;
+			sourceTree = "<group>";
+		};
+		1845C0FF24768BD60023EF49 /* MenteaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1845C10024768BD60023EF49 /* MenteaUITests.swift */,
+				1845C10224768BD60023EF49 /* Info.plist */,
+			);
+			path = MenteaUITests;
+			sourceTree = "<group>";
+		};
+		184CC63A2476B62E002018B8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185E616024D5AEF700068EE6 /* FullImageViewController.swift */,
+				185E615A24D5AD2400068EE6 /* VideoView.swift */,
+				185E615924D5AD2300068EE6 /* VideoViewController.swift */,
+				185E615B24D5AD2400068EE6 /* ZoomImageCollectionViewCell.swift */,
+				185E615824D5AD2300068EE6 /* ZoomImageViewController.swift */,
+				1827692924CC828600708598 /* FilterViewController.swift */,
+				1827692A24CC828700708598 /* HobbiesCollectionViewCell.swift */,
+				1849EBCA24C31E8D00B9A927 /* VoiceChatViewController.swift */,
+				1849EBC024C2E2B300B9A927 /* VideoChatViewController.swift */,
+				18FD31CB24C1FF0300D71C5A /* TutorialCollectionViewCell.swift */,
+				181BAB2B24A5F77E009B1805 /* UpdateCommentVC.swift */,
+				18494BC72479954E009D7882 /* ReceiverTableViewCell.swift */,
+				18494BC62479954E009D7882 /* SenderTableViewCell.swift */,
+				18D06BC12478092B0050DFD5 /* SignupStep1MrViewController.swift */,
+				180573E724BED99300190FF1 /* SWRevealViewController.h */,
+				180573E624BED99200190FF1 /* SWRevealViewController.m */,
+				184CC63B2476B645002018B8 /* LoginViewController.swift */,
+				18D06BBD2477CC2F0050DFD5 /* SignUpViewController.swift */,
+				18D06BC32478126E0050DFD5 /* SignupStep2MrViewController.swift */,
+				18D06BC524783F300050DFD5 /* SignupStep2MenteeViewController.swift */,
+				1839907E247928BF00102D6F /* BlogViewController.swift */,
+				183990802479290900102D6F /* ChatListViewController.swift */,
+				1842948924794B49003D3460 /* BlogTableViewCell.swift */,
+				1842948B24795019003D3460 /* UsersCollectionViewCell.swift */,
+				1842948D24795657003D3460 /* UserListTableViewCell.swift */,
+				1842948F24796524003D3460 /* SwipeUserViewController.swift */,
+				18494BC224797FBE009D7882 /* ProfileMentorViewController.swift */,
+				18494BC424799079009D7882 /* ChatViewController.swift */,
+				18F9D4AA247F8948009BCB4F /* StorageService.swift */,
+				1845E6FE24810C6C007E9D47 /* ForgetViewController.swift */,
+				B305FF35249394CA0029DAF3 /* CommentListVC.swift */,
+				B34AA8352493961C00E0BE61 /* CommentListCell.swift */,
+				B34AA837249397A500E0BE61 /* CreatePostVC.swift */,
+				B3E55D8D2493A92000BFA188 /* MyBlogsVC.swift */,
+				883AA2C52499022C00703175 /* ProfileMenteeViewController.swift */,
+				181E8E6624A2111A00663A2A /* UserCollectionViewCell.swift */,
+				180573D824BED45200190FF1 /* MenuViewController.swift */,
+				180573DA24BED4CB00190FF1 /* HomeViewController.swift */,
+				180573E524BED99100190FF1 /* Mentea-Bridging-Header.h */,
+				180573E924BEE2D300190FF1 /* HeaderCell.swift */,
+				180573EB24BEE2F300190FF1 /* MenuTableViewCell.swift */,
+				180573ED24BF448300190FF1 /* ProfileNewViewController.swift */,
+				180573FD24BF5A4300190FF1 /* UserListViewController.swift */,
+				18F3860E24C05A1F00AA7A20 /* AboutViewController.swift */,
+				18FD31C724C1847B00D71C5A /* TutorialCollectionViewController.swift */,
+				1849EBC824C3029300B9A927 /* IncomingCallViewController.swift */,
+				1849EBCC24C3283100B9A927 /* ArchiveQueueViewController.swift */,
+				1849EBCE24C3500E00B9A927 /* EditProfileViewController.swift */,
+				18CBB98D24C5CEE800C2AEAE /* MenteeProfileViewController.swift */,
+				18263AFE24C7331A0019F1A5 /* MenteeEditProfileViewController.swift */,
+				185FFF8C24CEB4EC0056CED4 /* PopViewController.swift */,
+				185EB50C24CF10B500C89E1A /* MenteeFilterViewController.swift */,
+				18E49F1F24D2FE6B007BB9F0 /* SuggestedMentorProfileVC.swift */,
+				18E49F2124D2FFAC007BB9F0 /* SuggestedMenteeProfileVC.swift */,
+				187060F024D5752A00ED0B65 /* MentorSignupCollectionViewCell.swift */,
+				187060F224D586CC00ED0B65 /* MenteeSignupCollectionViewCell.swift */,
+				18ECD1F824DECD57002A437B /* MenteeProfileVC2ViewController.swift */,
+				18AAB5E724EBBC950062A921 /* QuestionTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1880C0CD247BED000053072E /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				18CBB98B24C5B4BA00C2AEAE /* LeftChaFileCell.xib */,
+				18CBB98924C5B42600C2AEAE /* RightChatFileCell.xib */,
+				1849279C2482C136004906C4 /* LeftChaFileCell.swift */,
+				184927972482C136004906C4 /* LeftChatImageCell.swift */,
+				184927992482C136004906C4 /* LeftChatImageCell.xib */,
+				184927952482C136004906C4 /* LeftChatWithDoelseCell.swift */,
+				184927982482C136004906C4 /* LeftChatWithDoelseCell.xib */,
+				184927942482C136004906C4 /* RightChatFileCell.swift */,
+				184927922482C136004906C4 /* RightChatImageCell.swift */,
+				1849279A2482C136004906C4 /* RightChatImageCell.xib */,
+				184927962482C136004906C4 /* RightChatWithDoelseCell.swift */,
+				184927932482C136004906C4 /* RightChatWithDoelseCell.xib */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		18CBB98F24C5EFB600C2AEAE /* MentorSignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18263AEA24C6CC900019F1A5 /* SignUpMentor1VC.swift */,
+				18263AEC24C6CCE50019F1A5 /* SignUpMentor2VC.swift */,
+				18263AEE24C6CD1E0019F1A5 /* SignUpMentor3VC.swift */,
+				18263AF024C6CD810019F1A5 /* SignUpMentor4VC.swift */,
+				18263AF224C6CDD00019F1A5 /* SignUpMentor5VC.swift */,
+			);
+			path = MentorSignUpViewController;
+			sourceTree = "<group>";
+		};
+		18CBB99024C5F05D00C2AEAE /* MenteeSignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18263AF624C71BA00019F1A5 /* SignupMentee1ViewController.swift */,
+				18263AF724C71BA00019F1A5 /* SignupMentee2ViewController.swift */,
+				18263AF524C71BA00019F1A5 /* SignupMentee3ViewController.swift */,
+				18263AF824C71BA00019F1A5 /* SignupMentee4ViewController.swift */,
+				18263AF424C71BA00019F1A5 /* SignupMentee5ViewController.swift */,
+			);
+			path = MenteeSignUpViewController;
+			sourceTree = "<group>";
+		};
+		2749F85AA4F5856A9CAB51D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83F95EFCCDA405CC3965785C /* Pods-Mentea.debug.xcconfig */,
+				E053C3C35BB4AD5282A93800 /* Pods-Mentea.release.xcconfig */,
+				44E7C80C34EEC9BC6D57A170 /* Pods-Mentea-MenteaUITests.debug.xcconfig */,
+				98B6A6C32D69EAC7F6BF0432 /* Pods-Mentea-MenteaUITests.release.xcconfig */,
+				DD0D8CB6196FC8EEFE71ED73 /* Pods-MenteaTests.debug.xcconfig */,
+				C0486BD990753AE23B44979B /* Pods-MenteaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3F1B7DB2494D67D0002DB1F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B3F1B7DC2494D6C40002DB1F /* loginPasswordView.swift */,
+				B3F1B7DD2494D6C40002DB1F /* loginPasswordView.xib */,
+				B3F1B7E02494FDE20002DB1F /* LoginTypeView.swift */,
+				B3F1B7E12494FDE20002DB1F /* LoginTypeView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1845C0DA24768BD40023EF49 /* Mentea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C10524768BD60023EF49 /* Build configuration list for PBXNativeTarget "Mentea" */;
+			buildPhases = (
+				6A924B8CF90448559392BAEC /* [CP] Check Pods Manifest.lock */,
+				1845C0D724768BD40023EF49 /* Sources */,
+				1845C0D824768BD40023EF49 /* Frameworks */,
+				1845C0D924768BD40023EF49 /* Resources */,
+				0420F26EF0C778457A4D46EF /* [CP] Embed Pods Frameworks */,
+				18153A9224B478FA00A320A0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mentea;
+			productName = Mentea;
+			productReference = 1845C0DB24768BD40023EF49 /* Mentea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1845C0F024768BD60023EF49 /* MenteaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C10824768BD60023EF49 /* Build configuration list for PBXNativeTarget "MenteaTests" */;
+			buildPhases = (
+				7C5D22096E5C7C569FDCF466 /* [CP] Check Pods Manifest.lock */,
+				1845C0ED24768BD60023EF49 /* Sources */,
+				1845C0EE24768BD60023EF49 /* Frameworks */,
+				1845C0EF24768BD60023EF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845C0F324768BD60023EF49 /* PBXTargetDependency */,
+			);
+			name = MenteaTests;
+			productName = MenteaTests;
+			productReference = 1845C0F124768BD60023EF49 /* MenteaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1845C0FB24768BD60023EF49 /* MenteaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1845C10B24768BD60023EF49 /* Build configuration list for PBXNativeTarget "MenteaUITests" */;
+			buildPhases = (
+				ACE19EE24B7A2801403561D9 /* [CP] Check Pods Manifest.lock */,
+				1845C0F824768BD60023EF49 /* Sources */,
+				1845C0F924768BD60023EF49 /* Frameworks */,
+				1845C0FA24768BD60023EF49 /* Resources */,
+				CFBA654EB4EF952F2754D61B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1845C0FE24768BD60023EF49 /* PBXTargetDependency */,
+			);
+			name = MenteaUITests;
+			productName = MenteaUITests;
+			productReference = 1845C0FC24768BD60023EF49 /* MenteaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1845C0D324768BD30023EF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1845C0DA24768BD40023EF49 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					1845C0F024768BD60023EF49 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1845C0DA24768BD40023EF49;
+					};
+					1845C0FB24768BD60023EF49 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1845C0DA24768BD40023EF49;
+					};
+				};
+			};
+			buildConfigurationList = 1845C0D624768BD30023EF49 /* Build configuration list for PBXProject "Mentea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1845C0D224768BD30023EF49;
+			productRefGroup = 1845C0DC24768BD40023EF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1845C0DA24768BD40023EF49 /* Mentea */,
+				1845C0F024768BD60023EF49 /* MenteaTests */,
+				1845C0FB24768BD60023EF49 /* MenteaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1845C0D924768BD40023EF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1849279F2482C136004906C4 /* RightChatWithDoelseCell.xib in Resources */,
+				1845C0EB24768BD60023EF49 /* LaunchScreen.storyboard in Resources */,
+				1843391F248037FA0041BB20 /* CustomManteeView.xib in Resources */,
+				184294972479697B003D3460 /* CustomView.xib in Resources */,
+				18F773ED247BD9C100BDB4F7 /* GoogleService-Info.plist in Resources */,
+				186B4C2224DC404700FDC104 /* ImageTableViewCell.xib in Resources */,
+				184927A42482C136004906C4 /* LeftChatWithDoelseCell.xib in Resources */,
+				186B4C2024DC304400FDC104 /* TextTableViewCell.xib in Resources */,
+				1845C0E824768BD60023EF49 /* Assets.xcassets in Resources */,
+				B3F1B7E32494FDE20002DB1F /* LoginTypeView.xib in Resources */,
+				184927A62482C136004906C4 /* RightChatImageCell.xib in Resources */,
+				B3F1B7DF2494D6C40002DB1F /* loginPasswordView.xib in Resources */,
+				1849EBC324C2E33D00B9A927 /* Log.storyboard in Resources */,
+				183898842480E37800C46196 /* ManteeView.xib in Resources */,
+				18CBB98A24C5B42600C2AEAE /* RightChatFileCell.xib in Resources */,
+				18CBB98C24C5B4BB00C2AEAE /* LeftChaFileCell.xib in Resources */,
+				B3C8241624925BE500B621D0 /* MyCell.xib in Resources */,
+				184927A52482C136004906C4 /* LeftChatImageCell.xib in Resources */,
+				186B4C2424DC4A7F00FDC104 /* DocumentTableViewCell.xib in Resources */,
+				1845C0E624768BD40023EF49 /* Main.storyboard in Resources */,
+				1846EACC24A4D71500BEB26C /* MyCell1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0EF24768BD60023EF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0FA24768BD60023EF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0420F26EF0C778457A4D46EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mentea/Pods-Mentea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mentea/Pods-Mentea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mentea/Pods-Mentea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18153A9224B478FA00A320A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+
+";
+		};
+		6A924B8CF90448559392BAEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mentea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5D22096E5C7C569FDCF466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MenteaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE19EE24B7A2801403561D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mentea-MenteaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBA654EB4EF952F2754D61B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mentea-MenteaUITests/Pods-Mentea-MenteaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mentea-MenteaUITests/Pods-Mentea-MenteaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mentea-MenteaUITests/Pods-Mentea-MenteaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1845C0D724768BD40023EF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D06BBE2477CC2F0050DFD5 /* SignUpViewController.swift in Sources */,
+				184CC63C2476B645002018B8 /* LoginViewController.swift in Sources */,
+				1839907F247928BF00102D6F /* BlogViewController.swift in Sources */,
+				186B4C2824DC4B3400FDC104 /* ImageTableViewCell.swift in Sources */,
+				187060F124D5752A00ED0B65 /* MentorSignupCollectionViewCell.swift in Sources */,
+				1827692B24CC828800708598 /* FilterViewController.swift in Sources */,
+				180573F924BF530600190FF1 /* CarbonSwipeRefresh.m in Sources */,
+				186B4C2624DC4B2300FDC104 /* DocumentTableViewCell.swift in Sources */,
+				18CBB98E24C5CEE800C2AEAE /* MenteeProfileViewController.swift in Sources */,
+				181E8E6724A2111A00663A2A /* UserCollectionViewCell.swift in Sources */,
+				180573EA24BEE2D300190FF1 /* HeaderCell.swift in Sources */,
+				185E615F24D5AD2400068EE6 /* ZoomImageCollectionViewCell.swift in Sources */,
+				18FD31CC24C1FF0300D71C5A /* TutorialCollectionViewCell.swift in Sources */,
+				184927A82482C136004906C4 /* LeftChaFileCell.swift in Sources */,
+				B3F1B7DA249493C20002DB1F /* Global.swift in Sources */,
+				18E49F2224D2FFAC007BB9F0 /* SuggestedMenteeProfileVC.swift in Sources */,
+				18ECD1F924DECD57002A437B /* MenteeProfileVC2ViewController.swift in Sources */,
+				18263AFA24C71BA00019F1A5 /* SignupMentee3ViewController.swift in Sources */,
+				180E9EFD247D1896002991A5 /* KGRadioButton.swift in Sources */,
+				18494BC82479954E009D7882 /* SenderTableViewCell.swift in Sources */,
+				185EB50D24CF10B500C89E1A /* MenteeFilterViewController.swift in Sources */,
+				181BAB2C24A5F77E009B1805 /* UpdateCommentVC.swift in Sources */,
+				184294962479697B003D3460 /* CustomView.swift in Sources */,
+				185E615C24D5AD2400068EE6 /* ZoomImageViewController.swift in Sources */,
+				187060F324D586CC00ED0B65 /* MenteeSignupCollectionViewCell.swift in Sources */,
+				186B4C1F24DC304400FDC104 /* TextTableViewCell.swift in Sources */,
+				B3F1B7E22494FDE20002DB1F /* LoginTypeView.swift in Sources */,
+				1827692C24CC828800708598 /* HobbiesCollectionViewCell.swift in Sources */,
+				180573E824BED99300190FF1 /* SWRevealViewController.m in Sources */,
+				1849EBCD24C3283100B9A927 /* ArchiveQueueViewController.swift in Sources */,
+				18FD31C824C1847B00D71C5A /* TutorialCollectionViewController.swift in Sources */,
+				18263AF924C71BA00019F1A5 /* SignupMentee5ViewController.swift in Sources */,
+				1849EBC624C2E38900B9A927 /* LogViewController.swift in Sources */,
+				1842948C24795019003D3460 /* UsersCollectionViewCell.swift in Sources */,
+				18263AFB24C71BA00019F1A5 /* SignupMentee1ViewController.swift in Sources */,
+				18494BC92479954E009D7882 /* ReceiverTableViewCell.swift in Sources */,
+				18263AEB24C6CC900019F1A5 /* SignUpMentor1VC.swift in Sources */,
+				18D06BC42478126E0050DFD5 /* SignupStep2MrViewController.swift in Sources */,
+				18494BC324797FBE009D7882 /* ProfileMentorViewController.swift in Sources */,
+				1849EBCB24C31E8E00B9A927 /* VoiceChatViewController.swift in Sources */,
+				18F3860F24C05A1F00AA7A20 /* AboutViewController.swift in Sources */,
+				18263AFD24C71BA00019F1A5 /* SignupMentee4ViewController.swift in Sources */,
+				18263AFF24C7331A0019F1A5 /* MenteeEditProfileViewController.swift in Sources */,
+				185E615D24D5AD2400068EE6 /* VideoViewController.swift in Sources */,
+				1811CBDE24D2A6180070AF7E /* File.swift in Sources */,
+				185E615E24D5AD2400068EE6 /* VideoView.swift in Sources */,
+				18E49F2024D2FE6B007BB9F0 /* SuggestedMentorProfileVC.swift in Sources */,
+				B305FF34249362D50029DAF3 /* BlogsModel.swift in Sources */,
+				1846EACB24A4D71500BEB26C /* MyCell1.swift in Sources */,
+				184927A32482C136004906C4 /* LeftChatImageCell.swift in Sources */,
+				18F9D4AB247F8948009BCB4F /* StorageService.swift in Sources */,
+				1845E6FF24810C6C007E9D47 /* ForgetViewController.swift in Sources */,
+				180573DB24BED4CB00190FF1 /* HomeViewController.swift in Sources */,
+				1845C0E324768BD40023EF49 /* ViewController.swift in Sources */,
+				182BBB5E2477AB5B000969EB /* UIConstants.swift in Sources */,
+				18433921248038080041BB20 /* CustomManteeView.swift in Sources */,
+				883AA2C62499022C00703175 /* ProfileMenteeViewController.swift in Sources */,
+				184927902482BA47004906C4 /* MessageModal.swift in Sources */,
+				180573FE24BF5A4300190FF1 /* UserListViewController.swift in Sources */,
+				180573EC24BEE2F300190FF1 /* MenuTableViewCell.swift in Sources */,
+				184927A02482C136004906C4 /* RightChatFileCell.swift in Sources */,
+				B3F1B7DE2494D6C40002DB1F /* loginPasswordView.swift in Sources */,
+				182E746C24C80DF40055A574 /* SplashViewController.swift in Sources */,
+				18FAC1552482918900E69A27 /* MessageUserList.swift in Sources */,
+				180573D924BED45200190FF1 /* MenuViewController.swift in Sources */,
+				18263AF124C6CD810019F1A5 /* SignUpMentor4VC.swift in Sources */,
+				B3C8241524925BE500B621D0 /* MyCell.swift in Sources */,
+				183990812479290900102D6F /* ChatListViewController.swift in Sources */,
+				18429493247966E0003D3460 /* UserModel.swift in Sources */,
+				B3E55D8E2493A92000BFA188 /* MyBlogsVC.swift in Sources */,
+				18AAB5E824EBBC950062A921 /* QuestionTableViewCell.swift in Sources */,
+				1849EBC924C3029300B9A927 /* IncomingCallViewController.swift in Sources */,
+				183898822480DF4600C46196 /* MenteeView.swift in Sources */,
+				180573FC24BF530600190FF1 /* CarbonTabSwipeScrollView.m in Sources */,
+				1849EBCF24C3500E00B9A927 /* EditProfileViewController.swift in Sources */,
+				18263AEF24C6CD1E0019F1A5 /* SignUpMentor3VC.swift in Sources */,
+				18263AF324C6CDD00019F1A5 /* SignUpMentor5VC.swift in Sources */,
+				18D06BC624783F300050DFD5 /* SignupStep2MenteeViewController.swift in Sources */,
+				180573FA24BF530600190FF1 /* CarbonTabSwipeSegmentedControl.m in Sources */,
+				1849EBC124C2E2B400B9A927 /* VideoChatViewController.swift in Sources */,
+				1849EBC724C2E38900B9A927 /* AppID.swift in Sources */,
+				184927A12482C136004906C4 /* LeftChatWithDoelseCell.swift in Sources */,
+				185E616124D5AEF700068EE6 /* FullImageViewController.swift in Sources */,
+				1849279E2482C136004906C4 /* RightChatImageCell.swift in Sources */,
+				1842948E24795657003D3460 /* UserListTableViewCell.swift in Sources */,
+				180573FB24BF530600190FF1 /* CarbonTabSwipeNavigation.m in Sources */,
+				1845C0DF24768BD40023EF49 /* AppDelegate.swift in Sources */,
+				B34AA8362493961C00E0BE61 /* CommentListCell.swift in Sources */,
+				185FFF8D24CEB4EC0056CED4 /* PopViewController.swift in Sources */,
+				18263AFC24C71BA00019F1A5 /* SignupMentee2ViewController.swift in Sources */,
+				18263AED24C6CCE50019F1A5 /* SignUpMentor2VC.swift in Sources */,
+				18D06BC22478092B0050DFD5 /* SignupStep1MrViewController.swift in Sources */,
+				1842948A24794B4A003D3460 /* BlogTableViewCell.swift in Sources */,
+				1842949024796524003D3460 /* SwipeUserViewController.swift in Sources */,
+				180573EE24BF448300190FF1 /* ProfileNewViewController.swift in Sources */,
+				186069BF247BFB8400CEB7CB /* Helper.swift in Sources */,
+				B34AA838249397A500E0BE61 /* CreatePostVC.swift in Sources */,
+				18494BC524799079009D7882 /* ChatViewController.swift in Sources */,
+				184927A22482C136004906C4 /* RightChatWithDoelseCell.swift in Sources */,
+				1845C0E124768BD40023EF49 /* SceneDelegate.swift in Sources */,
+				B305FF36249394CA0029DAF3 /* CommentListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0ED24768BD60023EF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C0F624768BD60023EF49 /* MenteaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1845C0F824768BD60023EF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1845C10124768BD60023EF49 /* MenteaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1845C0F324768BD60023EF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845C0DA24768BD40023EF49 /* Mentea */;
+			targetProxy = 1845C0F224768BD60023EF49 /* PBXContainerItemProxy */;
+		};
+		1845C0FE24768BD60023EF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1845C0DA24768BD40023EF49 /* Mentea */;
+			targetProxy = 1845C0FD24768BD60023EF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1845C0E424768BD40023EF49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C0E524768BD40023EF49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1845C0E924768BD60023EF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1845C0EA24768BD60023EF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1845C10324768BD60023EF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1845C10424768BD60023EF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1845C10624768BD60023EF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F95EFCCDA405CC3965785C /* Pods-Mentea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mentea/Mentea.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8DZ4LB2G56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mentea",
+				);
+				INFOPLIST_FILE = Mentea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.Mentea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Mentea_Dev_0309;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mentea/ViewController/Mentea-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1845C10724768BD60023EF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E053C3C35BB4AD5282A93800 /* Pods-Mentea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mentea/Mentea.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8DZ4LB2G56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mentea",
+				);
+				INFOPLIST_FILE = Mentea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.Mentea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Mentea_Dev_0309;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mentea/ViewController/Mentea-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1845C10924768BD60023EF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0D8CB6196FC8EEFE71ED73 /* Pods-MenteaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenteaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.MenteaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mentea.app/Mentea";
+			};
+			name = Debug;
+		};
+		1845C10A24768BD60023EF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0486BD990753AE23B44979B /* Pods-MenteaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenteaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.MenteaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mentea.app/Mentea";
+			};
+			name = Release;
+		};
+		1845C10C24768BD60023EF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E7C80C34EEC9BC6D57A170 /* Pods-Mentea-MenteaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenteaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.MenteaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mentea;
+			};
+			name = Debug;
+		};
+		1845C10D24768BD60023EF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B6A6C32D69EAC7F6BF0432 /* Pods-Mentea-MenteaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenteaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.atpl.MenteaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mentea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1845C0D624768BD30023EF49 /* Build configuration list for PBXProject "Mentea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C10324768BD60023EF49 /* Debug */,
+				1845C10424768BD60023EF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845C10524768BD60023EF49 /* Build configuration list for PBXNativeTarget "Mentea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C10624768BD60023EF49 /* Debug */,
+				1845C10724768BD60023EF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845C10824768BD60023EF49 /* Build configuration list for PBXNativeTarget "MenteaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C10924768BD60023EF49 /* Debug */,
+				1845C10A24768BD60023EF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1845C10B24768BD60023EF49 /* Build configuration list for PBXNativeTarget "MenteaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1845C10C24768BD60023EF49 /* Debug */,
+				1845C10D24768BD60023EF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1845C0D324768BD30023EF49 /* Project object */;
+}
